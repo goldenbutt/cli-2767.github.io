@@ -1,0 +1,22 @@
+html, body {
+    height: 100%;
+    color: white;
+    font-size: 50px;
+    font-family: 'Helvetica', sans-serif;
+    background-color: black;
+}
+h1 {
+    text-align: center;
+}
+img {
+    max-height: 400px;
+    max-width: 600px;
+    align-content: center;
+    position: relative;
+}
+
+li {
+    margin-left: 400px;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
