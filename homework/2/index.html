@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<title>Homework #2</title>
+
+<body>
+
+<h1>Core Lab Interaction</h1>
+
+<br>
+
+<h2>Homework #2 - Recreating a Mondrian</h2>
+<p>Create one webpage using HTML and CSS that recreates Piet Mondrian's <a href="https://en.wikipedia.org/wiki/Composition_with_Red_Blue_and_Yellow">"Composition II in Red, Blue, and Yellow"</a> from 1930</p>
+<img src="piet_mondrian-composition_ii_in_red_blue_and_yellow.jpg" width=300 style="display: block; margin-left: auto; margin-right: auto;">
+
+<br>
+
+<h2>Requirements</h2>
+<ul>
+  <li>The painting should be recreated entirely using &ltdiv&gt colored with CSS background-color.</li>
+  <li>Some &ltdiv&gt will be container &ltdiv&gt that are invisible, but divide up space.</li>
+  <li>Use % units, allow the painting to take up the full canvas of the HTML page, it’s okay if it appears stretched if the window is also stretched.</li>
+  <li>Use CSS borders around the colored &ltdiv&gt to accomplish the black lines, this will put additional black lines around the outer boundary of the work, that is okay.</li>
+</ul>
+
+<br>
+
+<h2>Helpful Hints</h2>
+<ul>
+  <li>The &ltbody&gt tag should only need to contain &ltdiv&gt elements.</li>
+  <li>Make sure borders are in the interior of the &ltdiv&gt { box-sizing: border-box; }</li>
+  <li>The width and height math becomes much simpler if you only ever divide a &ltdiv&gt into 2 parts. Think about it this way: even 3 sections next to each other can be made by first dividing into 2, one large and one small. Then subdivide the large one into 2.</li>
+  <li>If you follow the previous point, each nested layer should only be dividing up the space horizontally or vertically; never both directions within the same container. If this is happening you are needing more empty containers.</li>
+  <li>I found it helpful to make this kind of diagram - illustrate all the container divs with a margin so that their space becomes obvious.</li>
+</ul>
+<img src="mondrian_sketch.png" width=200 style="display: block; margin-left: auto; margin-right: auto;">
+
+<br>
+
+<h2>Submission</h2>
+<p>You will turn in your homework by submitting a pull request to our class <a href="">github repository</a> and adding your index.html file to the folder corresponding to your NetID under /homework/2/ (i.e. <a href="https://github.com/cli-2767/cli-2767.github.io/tree/master/homework/2/jacobsom/">cli-2767.github.io/homework/2/jacobsom/</a>).</p>
+
+<br>
+
+<h2>Extra Credit</h2>
+<p>Get rid of the outer border, which requires specifically targeting the certain sides (top, left..) of a border. </p>
+
+</body>
+</html>
