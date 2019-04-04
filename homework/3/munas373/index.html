@@ -4,44 +4,130 @@
 
 <head>
 
-	<script>
+    <script>
 
-		var ns = "http://www.w3.org/2000/svg";
+        var ns = "http://www.w3.org/2000/svg";
 
-		window.onload = function(ev) {
+        window.onload = function(ev) {
 
-			var width = 400;
-			var height = 400;
+            var width = 1400;
+            var height = 800;
 
-			var svg = document.getElementById("mysvg");
+            var svg = document.getElementById("mysvg");
 
-			svg.setAttribute("width", width);
-			svg.setAttribute("height", height);
+            svg.setAttribute("width", width);
+            svg.setAttribute("height", height);
 
-			for (var i = 0; i < 100; i++) {
+            var stepSize = 100;
+            for (var x = 0; x < width; x = x + stepSize) {
+                for (var y = 0; y < height; y = y + stepSize) {
 
-				var line = document.createElementNS(ns, "line");
+                    var rect = document.createElementNS(ns, "rect");
 
-				line.setAttribute("x1", width * Math.random());
-				line.setAttribute("y1", height * Math.random());
-				line.setAttribute("x2", width * Math.random());
-				line.setAttribute("y2", height * Math.random());
-				line.style.stroke = "rgb(0, 0, 0)";
+                    var boxSize = Math.random() * (stepSize - 3);
+                    rect.setAttribute("x", x);
+                    rect.setAttribute("y", y);
+                    rect.setAttribute("width", boxSize);
+                    rect.setAttribute("height", boxSize);
+                    rect.style.stroke = "rgb(255, 255, 0)";
 
-				svg.appendChild(line);
+                    if (Math.random() > 0.5) {
+                        rect.style.stroke = "rgb(0, 0, 255)";
+                        rect.style.fill = "none";
+                        rect.style.strokeWidth = "2";
+                        svg.appendChild(rect);
+                    }
 
-			}
+                    if (Math.random() > 0.5) {
+                        rect.style.stroke = "rgb(255, 0, 0)";
+                        rect.style.fill = "none";
+                        rect.style.strokeWidth = "2";
+                        svg.appendChild(rect);
+                    }
 
-		}
+                    if (Math.random() > 0.5) {
+                        var rect2 = document.createElementNS(ns, "rect");
+                        var boxSize2 = Math.random() * (stepSize - 3);
+                        rect2.setAttribute("x", x);
+                        rect2.setAttribute("y", y);
+                        rect2.setAttribute("width", boxSize2);
+                        rect2.setAttribute("height", boxSize2);
+                        rect2.style.stroke = "rgb(0, 128, 0)";
+                        rect2.style.fill = "none";
+                        rect2.style.strokeWidth = "2";
+                        rect2.style.leftPadding = "30";
+                        svg.appendChild(rect2);
+                    }
 
-	</script>
+                    if (Math.random() > 0.5) {
+                        var rect2 = document.createElementNS(ns, "rect");
+                        var boxSize2 = Math.random() * (stepSize - 3);
+                        rect2.setAttribute("x", x);
+                        rect2.setAttribute("y", y);
+                        rect2.setAttribute("width", boxSize2);
+                        rect2.setAttribute("height", boxSize2);
+                        rect2.style.stroke = "rgb(255, 0, 0)";
+                        rect2.style.fill = "none";
+                        rect2.style.strokeWidth = "2";
+                         rect2.style.leftPadding = "30";
+                        svg.appendChild(rect2);
+                    }
+
+                    if (Math.random() > 0.5) {
+                        var rect2 = document.createElementNS(ns, "rect");
+                        var boxSize2 = Math.random() * (stepSize - 1);
+                        rect2.setAttribute("x", x);
+                        rect2.setAttribute("y", y);
+                        rect2.setAttribute("width", boxSize2);
+                        rect2.setAttribute("height", boxSize2);
+                        rect2.style.stroke = "rgb(0, 203, 255)";
+                        rect2.style.fill = "none";
+                        rect2.style.strokeWidth = "2";
+                        svg.appendChild(rect2);
+                    }
+
+                    if (Math.random() > 0.5) {
+                        var rect2 = document.createElementNS(ns, "rect");
+                        var boxSize2 = Math.random() * (stepSize - 1);
+                        rect2.setAttribute("x", x);
+                        rect2.setAttribute("y", y);
+                        rect2.setAttribute("width", boxSize2);
+                        rect2.setAttribute("height", boxSize2);
+                        rect2.style.stroke = "rgb(0, 128, 0)";
+                        rect2.style.fill = "none";
+                        rect2.style.strokeWidth = "2";
+                        rect2.style.leftMargin = "60";
+                        svg.appendChild(rect2);
+                    }
+
+
+                    if (Math.random() > 0.5) {
+                        var rect2 = document.createElementNS(ns, "rect");
+                        var boxSize2 = Math.random() * (stepSize - 10);
+                        rect2.setAttribute("x", x);
+                        rect2.setAttribute("y", y);
+                        rect2.setAttribute("width", boxSize2);
+                        rect2.setAttribute("height", boxSize2);
+                        rect2.style.stroke = "rgb(0, 0, 255)";
+                        rect2.style.fill = "none";
+                        rect2.style.strokeWidth = "2";
+                        rect2.style.leftMargin = "60";
+                        svg.appendChild(rect2);
+                    }
+                }
+
+            }
+
+        }
+
+    </script>
 
 </head>
 
 <body>
-	
-	<svg id="mysvg">
-	</svg>
+    
+    <svg id="mysvg">
+    </svg>
 
 </body>
 
