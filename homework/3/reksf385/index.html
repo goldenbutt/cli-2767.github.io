@@ -13,7 +13,7 @@
 
         window.onload = function(ev) {
 
-            var width = 400;
+            var width = 1000;
             var height = 400;
             
             var svg = document.getElementById("content");
@@ -26,7 +26,7 @@
 
                     var rect = document.createElementNS(ns, "rect");
                     
-                    rect.setAttribute("x", y * Math.random());
+                    rect.setAttribute("x", x * Math.random());
                     rect.setAttribute("y", y * Math.random());
                     rect.setAttribute("width", 40);
                     rect.setAttribute("height", 40);
