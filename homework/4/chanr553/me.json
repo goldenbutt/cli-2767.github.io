@@ -1,34 +1,20 @@
 {
-    "name": [ 
-    {
-        "firstName": "Rachel",
-        "lastName": "Chang"
-        }
-        ],
-    "home": [
-    {
-            "coord":{
-                "lon": 40.4416, 
-                "lat": 80.0079
-            }
-    }
-        ],
-    "authors": 
-        "https://rachelchang.myportfolio.com/",
-        
+    "name": ["Rachel", "Chang"],
+    "home": {
+                "longitude": 40.4416, 
+                "latitude": 80.0079
+            },
+    "url": "https://rachelchang.myportfolio.com/",
     "favorites": {
         "color": "7eb0ff",
-        "book": [
-            {
+        "book": {
                 "title": "Bio Design",
                 "author": "William Meyers"
-            }
-            ]
-        "tools": [{
+            },
+        "tools": [
             "Adobe InDesign", 
             "Autodesk Sketchbook", 
             "0-tip brush"
-            },
             ]
         "temperature": {
             "deg": 16,
