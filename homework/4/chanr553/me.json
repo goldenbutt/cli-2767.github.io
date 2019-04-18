@@ -1,0 +1,41 @@
+{
+    "homework":
+    {
+    "name": [ 
+    {
+        "firstName": "Rachel",
+        "lastName": "Chang"
+        }
+        ],
+    "home": [
+    {
+            "coord":{
+                "lon": 40.4416, 
+                "lat": 80.0079
+            }
+    }
+        ],
+    "authors": 
+        "https://rachelchang.myportfolio.com/",
+        
+    "favorites": {
+        "color": "7eb0ff",
+        "book": [
+            {
+                "title": "Bio Design",
+                "author": "William Meyers"
+            }
+            ]
+        "tools": [{
+            "Adobe InDesign", 
+            "Autodesk Sketchbook", 
+            "0-tip brush"
+            },
+            ]
+        "temperature": {
+            "deg": 16,
+            }
+
+        }
+    }
+}
