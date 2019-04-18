@@ -1,0 +1,21 @@
+{
+    "Annie" : [
+        {
+            "name": ["Annie","Hua", "Mei"],
+            "home": {
+                "latitude": 22.5431,
+                "longitude": 114.0579
+            },
+            "url": "https://annie3366.github.io/1/index.html",
+            "favorites": {
+                "color": "cebc96",
+                "book": {
+                        "title": "The Devotion of Suspect X",
+                        "author": "Keigo Higashino"
+                    },
+                "tool": "Adobe Illustrator",
+                "temperature": 20
+            }
+        }
+    ]
+}
