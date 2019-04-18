@@ -1,0 +1,14 @@
+{
+        "name":["Velimar", "Arianna", "Molina","Zerpa"],
+        "home":{"longitude":"31.7619", "latitude":"106.4850"},
+        "url":"https://github.com/cli-2767/cli-2767.github.io",
+        "favorites":{
+            "color":"4D00FF",
+            "book":{
+                "title": "Fates and Furies",
+                "author":"Lauren Geoff"
+            },
+            "tool":"Adobe Photoshop",
+            "temperature":"25"
+        }
+}
