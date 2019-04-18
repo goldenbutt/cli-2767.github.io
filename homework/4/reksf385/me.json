@@ -1,0 +1,12 @@
+{"homework":{
+    "name": ["Felita","Tata"],
+    "home": ["-6.21462","106.84513"],
+    "url": ["http://www.behance.net/tatarekso"],
+    "favorites": {
+        "color":["00d8d8"],
+        "book":null,
+        "tool":["Adobe Illustrator", "Fujix XT1"],
+        "temperature":["19C"]
+        }
+    }
+}
