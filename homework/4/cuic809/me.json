@@ -1,0 +1,19 @@
+{
+    "name": ["Chengcheng", "Cui"],
+    "home": [39.9042, 116.4074],
+    "url": "https://blackantarctica.com",
+    
+    "favorites": {
+    "color" : ["#FF0000"],
+    "book" : {
+    "title":["Hear The Wind Sing"],
+    "author":["Haruki Murakami"]
+    },
+    "movie" : ["Blue Velvet"],
+    "song" : ["Death Goes To The Disco"],
+    "artist" : ["Pulp"],
+    "tool" : ["Photoshop CC"],
+    "temperature" : [23]
+    }
+    
+    
