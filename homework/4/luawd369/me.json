@@ -1,0 +1,21 @@
+{
+    "dirm" : [
+        {
+            "name": ["Dirm","Luawo", "Dirmawan", "Dirman"],
+            "home": {
+                "latitude": 40.7431045,
+                "longitude": -73.9183501
+            },
+            "url": "https://dirmlq.github.io/1/index.html",
+            "favorites": {
+                "color": "005cb9",
+                "book": {
+                        "title": "A Tree Grows in Brooklyn",
+                        "author": "Betty Smith"
+                    },
+                "tool": "Adobe Illustrator",
+                "temperature": 18
+            }
+        }
+    ]
+}
