@@ -1,0 +1,21 @@
+{
+
+    "name": ["Tarra", "Boroumandi"],
+    "home": [40.743243, -74.003306],
+    "url": "https://tarraboroumandi.com/",
+    
+    "favorites": {
+    "color" : ["#000000"],
+    "book" : {
+    "title":["Too Much and Not the Mood"],
+    "author":["Durga Chew-Bose"]
+    },
+    "movie" : ["Superbad"],
+    "song" : ["Ribs"],
+    "artist" : ["Lorde"],
+    "tool" : ["Procreate"],
+    "temperature" : [60]
+    }
+    
+    
+    }
