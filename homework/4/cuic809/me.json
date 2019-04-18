@@ -1,0 +1,17 @@
+    "name": ["Chengcheng", "Cui"],
+    "home": [39.9042, 116.4074],
+    "url": ["https://www.blackantarctica.com"],
+    
+    "favorites": {
+    "color" : ["#000000"],
+    "book" : {
+    "title":["Hear The Wind Sing"],
+    "author":["Haruki Murakami"]
+    },
+    "movie" : ["Inception"],
+    "song" : ["Death Goes To The Disco"],
+    "artist" : ["Pulp"],
+    "tool" : ["Photoshop"],
+    "temperature" : ["23"]
+    }
+    
