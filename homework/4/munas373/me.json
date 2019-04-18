@@ -1,0 +1,15 @@
+{"Homework 4": {
+    "name": ["Karissa"],
+    "home": ["-6.271796", "106.711048"],
+    "url": ["https://wwww.karissamunaf.com"],
+    "favorites": {
+        "color" : ["#F9BF3F"],
+        "book" :  {
+            "title" : ["Legend"],
+            "author" : ["Marie Lu"]
+        },
+        "tool" : ["Adobe Illustrator, Olympus Pen, Visual Studio Code"],
+        "temperature" : ["21 celcius"]
+    }
+}
+}
