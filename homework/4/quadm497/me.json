@@ -1,0 +1,21 @@
+{
+
+    "name": ["Mariel", "Quadrino"],
+    "home": [40.869669, -73.407251],
+    "url": "https://quadrinom.weebly.com/",
+    
+    "favorites": {
+    "color" : ["CCCCFF"],
+    "book" : {
+    "title":["The Tao of Pooh"],
+    "author":["Benjamin Hoff"]
+    },
+    "movie" : ["Fight Club"],
+    "song" : ["Trouble"],
+    "artist" : ["Cage the Elephant"],
+    "tool" : ["InDesign"],
+    "temperature" : [26]
+    }
+    
+    
+    }
