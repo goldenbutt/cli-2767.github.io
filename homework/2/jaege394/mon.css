@@ -1,0 +1,42 @@
+*{
+  margin:0px;
+}
+#parent{
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+div.one{
+  width: 195px;
+  height:195px;
+  background-color: red;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+
+div.two{
+  width: 295px;
+  height: 295px;
+  background-color: blue;
+  position: fixed;
+  left:205px;
+  top:205px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
+div.three{
+  width:100px;
+  height: 100px;
+  background-color: yellow;
+  position: fixed;
+  left:400px;
+  top:300px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+}
