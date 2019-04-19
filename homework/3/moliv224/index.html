@@ -1,48 +1,78 @@
-<!DOCTYPE html>
-
 <html>
 
 <head>
+    <title>
+        VELIMAR
+    </title>
 
-	<script>
+<script>
+    var ns = "http://www.w3.org/2000/svg";
 
-		var ns = "http://www.w3.org/2000/svg";
+window.onclick = function(ev) {
 
-		window.onload = function(ev) {
+    var width = 1730;
+    var height = 1730;
 
-			var width = 400;
-			var height = 400;
+    var red = 400 * Math.random();
+	var green = 50 * Math.random();
+	var blue = 655 * Math.random();
 
-			var svg = document.getElementById("mysvg");
+    var svg = document.getElementById("mysvg");
 
-			svg.setAttribute("width", width);
-			svg.setAttribute("height", height);
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
 
-			for (var i = 0; i < 100; i++) {
+    var stepSize = 120;
+    for (var x = 0; x < width; x = x + stepSize) {
+        for (var y = 0; y < height; y = y + stepSize) {
 
-				var line = document.createElementNS(ns, "line");
+            var rect = document.createElementNS(ns, "rect");
+            var rect2 = document.createElementNS(ns, "rect");
 
-				line.setAttribute("x1", width * Math.random());
-				line.setAttribute("y1", height * Math.random());
-				line.setAttribute("x2", width * Math.random());
-				line.setAttribute("y2", height * Math.random());
-				line.style.stroke = "rgb(0, 0, 0)";
+            var boxSize = 120;
+            // var boxSize2 = (Math.random() * 30) + 180; 
+            
 
-				svg.appendChild(line);
+            if (Math.random() > 0.1) {
+                svg.appendChild(rect);
+                rect.setAttribute("x", x);
+                rect.setAttribute("y", y);
+                rect.setAttribute("width", boxSize);
+                rect.setAttribute("height", boxSize);
+				rect.style.stroke = "rgb(" + red + "," + green + "," + blue +")";
+                rect.style.fill = "none";
+                // rect.style.transform ="rotate(" + Math.random() * 520 + "deg)";
+            }
 
-			}
+            if (Math.random() > 0.5) {
+                var boxSize2 = Math.random() * boxSize; 
+                // var boxSize2 = Math.random() * (stepSize -10);
+                rect2.setAttribute("x", x);
+                rect2.setAttribute("y", y);
+                rect2.setAttribute("width", boxSize2);
+                rect2.setAttribute("height", boxSize2);
+				rect2.style.stroke = "rgb(" + red + "," + green + "," + blue +")";
+                rect2.style.fill = "none";
+                // rect2.style.transform ="rotate(" + Math.random() * -20 + "deg)";
+                svg.appendChild(rect2);
+            }
 
-		}
+        }
 
-	</script>
+    }
+
+}
+
+
+
+
+
+</script>
 
 </head>
-
 <body>
-	
-	<svg id="mysvg">
-	</svg>
-
+    <svg id="mysvg">
+        hello
+    </svg>
 </body>
-
 </html>
