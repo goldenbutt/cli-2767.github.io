@@ -1,0 +1,84 @@
+
+
+.square {
+  position: relative;
+  height: 70px;
+  width: 50px;
+  background-color: rgb(214, 214, 214);
+}
+.squareb {
+  position: relative;
+  height: 15px;
+  width: 50px;
+  background-color: rgb(0, 0, 0);
+}
+.square1 {
+  position: relative;
+  height: 80px;
+  width: 50px;
+  background-color: rgb(214, 214, 214);
+}
+.line {
+  position: relative;
+  height: 7px;
+  width: 215px;
+  background-color: rgb(0, 0, 0);
+}
+.square2 {
+  position: relative;
+  height: 70px;
+  width: 50px;
+  background-color: rgb(9, 57, 148);
+}
+.line2 {
+  top: 8px;
+  left: 55px;
+  position: absolute;
+  height: 242px;
+  width: 10px;
+  background-color: rgb(0, 0, 0);
+}
+.square3 {
+  top: 8px;
+  left: 65px;
+  position: absolute;
+  height: 165px;
+  width: 157px;
+  background-color: rgb(180, 8, 8);
+}
+.square4 {
+  top: 180px;
+  left: 65px;
+  position: absolute;
+  height: 70px;
+  width: 157px;
+  background-color: rgb(214, 214, 214);
+}
+.line3 {
+  top: 180px;
+  left: 180px;
+  position: absolute;
+  height: 70px;
+  width: 7px;
+  background-color: rgb(0, 0, 0);
+}
+.line4 {
+  top: 210px;
+  left: 180px;
+  position: absolute;
+  height: 12px;
+  width: 42px;
+  background-color: rgb(0, 0, 0);
+}
+.square5 {
+  top: 222px;
+  left: 187px;
+  position: absolute;
+  height: 28px;
+  width: 36px;
+  background-color: rgb(255, 233, 35);
+}
+
+
+
+
