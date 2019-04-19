@@ -1,1 +1,15 @@
-{ "name" : "summer", "wojtas" home : "41.3359° N", "71.9059° W" url : "www.instagram.com/summerwojtas" } { "favorites" : [ { "color" : "ADD8E6", "book" : ["difficult women", "roxanne gay"], "tool" : "photoshop" "temperature" : 26 } ] }
+{
+  "name" : "summer", "wojtas"
+  "home" : "41.3359° N", "71.9059° W"
+  "url" : "www.instagram.com/summerwojtas"
+ }
+{
+  "favorites" :  [
+    {
+      "color" : "ADD8E6",
+      "book" : ["difficult women", "roxanne gay"],
+      "tool" : "photoshop",
+      "temperature" : 26
+    }
+]
+}
