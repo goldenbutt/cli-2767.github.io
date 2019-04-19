@@ -3,32 +3,64 @@
 <html>
 
 <head>
-
 	<script>
-
+	
 		var ns = "http://www.w3.org/2000/svg";
 
 		window.onload = function(ev) {
 
-			var width = 400;
-			var height = 400;
+			var width = 4000;
+			var height = 4000;
+
 
 			var svg = document.getElementById("mysvg");
 
 			svg.setAttribute("width", width);
 			svg.setAttribute("height", height);
 
-			for (var i = 0; i < 100; i++) {
 
-				var line = document.createElementNS(ns, "line");
+			var stepSize = 30;
+			for (var x = 0; x < width; x = x + stepSize) {
+				for (var y = 0; y < height; y = y + stepSize) {
 
-				line.setAttribute("x1", width * Math.random());
-				line.setAttribute("y1", height * Math.random());
-				line.setAttribute("x2", width * Math.random());
-				line.setAttribute("y2", height * Math.random());
-				line.style.stroke = "rgb(0, 0, 0)";
+					var rect = document.createElementNS(ns, "rect");
 
-				svg.appendChild(line);
+					var boxSize = (stepSize);
+					rect.setAttribute("x", x);
+					rect.setAttribute("y", y);
+					rect.setAttribute("width", boxSize);
+					rect.setAttribute("height", boxSize);
+					rect.style.fill = "transparent";
+
+
+					if (Math.random() > 0.01) {
+						rect.style.stroke = "rgb(0, 0, 0)"; 
+						svg.appendChild(rect);
+					}
+
+					var angle = 4 / Math.random();
+					//var angle = Math.random() * 2; to make them straight
+						rect.style.transform = "matrix(5, 0, 0, 4, " + width / 3 + ", " + height / 3 + ") rotate(" + angle + "deg)";
+					
+					
+			
+		
+
+
+				/*function hslColor(h, s, l) {
+					var hue = h;
+					var saturation = s + "%";
+					var luminance = l + "%";
+
+					var color = "hsl(" + hue + "," + saturation + "," + luminance + ")";
+
+					return color;
+
+					rect.style.background = hslColor(h,s,l);
+					var h = randomNumber(0,40);
+					}
+				*/
+				}
 
 			}
 
@@ -39,10 +71,18 @@
 </head>
 
 <body>
-	
-	<svg id="mysvg">
-	</svg>
+		<svg id="mysvg">
+		</svg>
+
 
 </body>
 
+
 </html>
+
+
+
+
+
+
+
