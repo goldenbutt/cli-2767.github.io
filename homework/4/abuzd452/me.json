@@ -1,0 +1,12 @@
+{
+	"firstName":"Darina",
+	"lastName":"Abuzarova",
+	"home":[
+		{
+			"where": "Russia",
+			"city": "Ufa",
+			"location": ["54.68653423", "55.95336914" ],
+			"favouriteWebsite": "https://vk.com/"
+		}
+	]
+}
